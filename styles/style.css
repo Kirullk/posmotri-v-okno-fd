@@ -247,7 +247,7 @@ ol {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: "Oswald", Arial, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -309,23 +309,21 @@ ol {
   gap: 6px;
 }
 
-.content__video-card-title:hover {
+.content__card-link:hover {
   text-decoration: underline;
 }
 
-.content__video-card-description:hover {
-  text-decoration: underline;
-}
 
 .content__video-card-title {
   overflow: hidden;
   text-overflow: ellipsis;
-  font-family: Oswald;
+  font-family: "Oswald", Arial, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
   text-transform: uppercase;
   width: 196px;
+  padding-top: 1px;
 }
 
 .content__video-card-description {
